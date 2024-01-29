@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demofinaluo"
+  annotations:
+    github.com/project-slug: qwiklabs-gcp-03-4af270d19bf8/demofinaluo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: group:platform
+  lifecycle: experimental
